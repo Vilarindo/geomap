@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_UsinasPI_13 = function(feature, resolution){
+var style_Linha_Frigorfico_11 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -16,13 +16,12 @@ var style_UsinasPI_13 = function(feature, resolution){
     var textAlign = "left";
     var offsetX = 8;
     var offsetY = 3;
-    var placement = 'point';
+    var placement = 'line';
     if ("" !== null) {
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 8.0 + size,
-            stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(0,0,0,1.0)'})}),
+        stroke: new ol.style.Stroke({color: 'rgba(13,211,99,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1.9}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

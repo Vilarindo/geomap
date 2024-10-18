@@ -14,7 +14,7 @@ html, body {
 
 .ol-control {
 	clear: both;
-	padding: 2px !important;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
 }
 
 .ol-selectable {
@@ -408,5 +408,5 @@ td video {
 	} 	
 .bottom-attribution > li {
 	padding-left: 8px !important;
-	list-style: none;
+	list-style: none;	
 	}

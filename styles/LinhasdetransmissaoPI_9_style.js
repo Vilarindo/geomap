@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_LinhasdetransmissaoPI_8(feature, value, size, resolution, labelText,
+function categories_LinhasdetransmissaoPI_9(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 switch(value.toString()) {case '230.0':
@@ -28,7 +28,7 @@ default:
     })];
                     break;}};
 
-var style_LinhasdetransmissaoPI_8 = function(feature, resolution){
+var style_LinhasdetransmissaoPI_9 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -48,7 +48,7 @@ var style_LinhasdetransmissaoPI_8 = function(feature, resolution){
         labelText = String("");
     }
     
-var style = categories_LinhasdetransmissaoPI_8(feature, value, size, resolution, labelText,
+var style = categories_LinhasdetransmissaoPI_9(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement);
 

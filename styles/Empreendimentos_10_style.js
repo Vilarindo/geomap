@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_Empreendimentos_9(feature, value, size, resolution, labelText,
+function categories_Empreendimentos_10(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 switch(value.toString()) {case 'Construção - Eólica':
@@ -157,7 +157,7 @@ default:
     })];
                     break;}};
 
-var style_Empreendimentos_9 = function(feature, resolution){
+var style_Empreendimentos_10 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -177,7 +177,7 @@ var style_Empreendimentos_9 = function(feature, resolution){
         labelText = String("");
     }
     
-var style = categories_Empreendimentos_9(feature, value, size, resolution, labelText,
+var style = categories_Empreendimentos_10(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement);
 
